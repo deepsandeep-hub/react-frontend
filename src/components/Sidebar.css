@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 585px;
+  }
+  
+  .sidebar {
+    margin: 0;
+    width: 200px;
+    background-color: #f6f6f6;
+    position: sticky;
+    height: 100%;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: rgb(123, 6, 181);
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  .sidebar a.active {
+    background-color:yellowgreen;
+    color: rgb(20, 19, 19);
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: rgb(29, 24, 2);
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  .css-1azl6jz-MuiTableCell-root {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 2.875rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.01071em;
+    display: table-cell;
+    vertical-align: inherit;
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+    text-align: right;
+    padding: 16px;
+    color: rgba(0, 0, 0, 0.87);
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    background-color: #e9ff00;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 204px;
+  }
+  
+  .css-1ygcj2i-MuiTableCell-root {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.01071em;
+    display: table-cell;
+    vertical-align: inherit;
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+    text-align: left;
+    padding: 16px;
+    color: rgba(0, 0, 0, 0.87);
+    background-color: #e9ff00;
+    margin-left: 204px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {
+      float: left;
+    }
+    div.content {
+      margin-left: 0;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+  .plot-name-single{
+    margin-left: 75px;
+  }
