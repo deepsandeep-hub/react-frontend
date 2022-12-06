@@ -50,7 +50,7 @@ const Routers = () => {
   };
 
   return (
-    <div className="container-body">
+    <div className="container-body" style={{display:'flex'}}>
       <Router>
       <Sidebar/>
         <Routes>

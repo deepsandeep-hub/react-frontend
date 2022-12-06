@@ -1,0 +1,13 @@
+.table .MuiPaper-root-MuiTableContainer-root{
+ width: 60px !important;
+}
+.table .MuiPaper-root {
+    width: 60% !important;
+   }
+   .table .MuiTableContainer-root{
+    width: 60% !important;
+
+   }
+   .admin-table{
+    
+   }

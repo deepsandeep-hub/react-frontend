@@ -7,6 +7,7 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import './admintable.css'
 
 function AdminDashboard(props) {
     // const { userDeatils } = props;
@@ -15,7 +16,7 @@ function AdminDashboard(props) {
    
   return (
    
-    <div style={{height:'580px'}}>
+    <div style={{height:'580px', padding:'10px 20px', width:'-webkit-fill-available'}}>
       <h1>Admin Panel</h1>
       <div
         style={{
@@ -25,6 +26,7 @@ function AdminDashboard(props) {
           gap: "10px",
           flexDirection: "column",
         }}
+        className='admin-table'
       >
         {/* <div
           style={{
@@ -76,7 +78,7 @@ function AdminDashboard(props) {
             })
           : "No data found"} */}
       </div>
-      <div>
+      <div className="table">
       <TableContainer component={Paper}>
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>

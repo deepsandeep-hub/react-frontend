@@ -9,7 +9,7 @@ function Sidebar() {
   return (
     <div className="side-bar">
       <div class="sidebar">
-        {/* <Avatar src={icon} size="small"/> */}
+        <Avatar src={icon} size="small"/>
         <Link className={location.pathname != '/AdminDashboard' ? "active": ""} to="/"> Home</Link>
         <Link className={location.pathname == '/AdminDashboard' ? "active": ""} to="/AdminDashboard">Admin Dashboard</Link>
       </div>
