@@ -15,6 +15,8 @@ export default function Product(props) {
 
   return (
     <div className="product-parent">
+                  <h1>Farm Plots</h1>
+
       <div className="product-grid-area">
         {plotsArray && plotsArray.length > 0
           ? plotsArray.map((i) => {
@@ -22,17 +24,19 @@ export default function Product(props) {
               let title = i.name;
               let price = i.price;
               return (
+                <div>
                 <div className="product-grid-item">
                   <img className="product-grid-item-image" src={image} />
                   <p className="product-grid-item-title">{title}</p>
-                  <p className="product-grid-item-price">{price}</p>
-                  <button
+                  <p className="product-grid-item-price">{price} per Sq feet</p>
+                  <button className="button"
                     onClick={() => {
                       navigate(`Singlecart/${i.id}`);
                     }}
                   >
                     Show this Plot
                   </button>
+                </div>
                 </div>
               );
             })

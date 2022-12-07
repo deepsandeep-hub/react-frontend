@@ -13,8 +13,9 @@ export default function Header(props) {
             <h1>OWN GROW CHERISH</h1>
         </a>
       </div>
-      <div className="header-div">
-        <a href="/AdminDashboard">
+      {/* <div className="header-div">
+        <a href="mailto:sales@hosachiguru.com">Contact Us</a> */}
+        {/* <a href="/AdminDashboard">
           AdminPage{" "}
           {countCartItems ? (
             <button className="badge">{countCartItems}</button>
@@ -22,8 +23,8 @@ export default function Header(props) {
             ""
           )}
         </a>{" "}
-        <a href="#/signin">SignIn</a>
-      </div>
+        <a href="#/signin">SignIn</a> */}
+      {/* </div> */}
     </header>
   );
 }
